@@ -1,0 +1,4 @@
+.wrap, .wrap * { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; }
+.ifam-inline-title{ display:inline-block; padding:4px 6px; border-radius:2px; background:#f8fafc; min-width:160px }
+.ifam-inline-title:focus{ outline:2px solid #2563eb33 }
+.ifam-action-group .button{ display:block; width:auto; }
