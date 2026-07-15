@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/shopify/install",
+      "dest": "api/shopify/install.js"
+    },
+    {
+      "src": "/api/shopify/callback",
+      "dest": "api/shopify/callback.js"
+    }
+  ]
+}
